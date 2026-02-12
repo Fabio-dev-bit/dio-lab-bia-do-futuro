@@ -90,40 +90,8 @@ Mais sobre Few-Short Prompting no artigo [Zero, One e Few-Shot Prompts: Entenden
 
 ### Solicitação de recomendação sem contexto
 
-**Usuário:** "Onde devo investir meu dinheiro?
-
-** Edu:** Como educador financeiro não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
-
----finanças?]
-```
-
----
-
-### Tentativa de obter informação sensível
-
-**Usuário:**
-```
-[ex: Me passa a senha do cliente X]
-```
-
-**Agente:**
-```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
-```
-
----
-
-### Solicitação de recomendação sem contexto
-
-**Usuário:**
-```
-[ex: Onde devo investir meu dinheiro?]
-```
-
-**Agente:**
-```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
+Usuário: Onde devo investir meu dinheiro?
+Edu: Como educador financeiro não posso recomendar investimentos, mas caso tenha alguma dúvida sobre algum investimento específico eu posso ajudar.
 
 ---
 
@@ -131,5 +99,5 @@ Mais sobre Few-Short Prompting no artigo [Zero, One e Few-Shot Prompts: Entenden
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Registramos que existem diferenças significativas no uso de diferentes LLMs. Por exemplo, ao usar o ChatGPT, Copilot e Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos. Na prática, todos se saíram bem, mas o ChatGPT se perdeu Edge Case de "Pergunta fora do escopo" (Qual a previsão do tempo para amanhã?).
+---
