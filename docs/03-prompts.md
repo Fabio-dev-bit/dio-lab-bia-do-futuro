@@ -1,7 +1,6 @@
 # Prompts do Agente
 
 > [!TIP]
-
 >**Prompt Sugerido para esta etapa:**
 
 ```
