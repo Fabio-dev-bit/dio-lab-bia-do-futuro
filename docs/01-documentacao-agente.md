@@ -61,9 +61,9 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [Streamlit] |
+| Interface | [Streamlit](https://streamlit.io/) |
 | LLM | [Ollama (local)] |
-| Base de Conhecimento | [JSON/CSV mokados] |
+| Base de Conhecimento | [JSON/CSV mokados na pasta] |
 
 
 ---
@@ -72,12 +72,14 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Só usa dados fornecidos no contexto
+- [ ] Não recomenda investimentos especificos
+- [ ] Admite quando não sabe algo
+- [ ] Foca Apenas em educar, não em aconselhar
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não faz recomendação de investimento
+- Não acessa dados bancários sensíveis (como senha e etc)
+- Não substitui um profissional certificado
